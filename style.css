@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face { font-family: Aftetir; src: url('/fonts/Aftetir-rgDoA.ttf'); } 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	margin:0;
+	padding: 0;
+    font-family: 'Aftetir';    
+    width: 100%;
+	overflow-x: hidden;
+    color: #2c3f45;
+    filter: contrast(97%);
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: 'Mondapick';
+}
+
+.animate__fadeIn {
+    --animate-duration: 5s;
+    --animation-delay: 0.7s;
+  }
+
+
+span {
+    color: #cc6666;
+    font-weight: 700;
+}
+
+span:hover {
+    color: #df9e9e;
+    font-weight: 700;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/******** HEADER ********/
+
+#header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(img/download.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+.nav_menu {
+    display: flex;
+	flex-direction: row;
+    justify-content:space-around; 
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 15%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 115px;
+}
+
+.logo h3 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:#f9fafa;
+    opacity: 0.9;
+    padding-top: 17px;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 20px 10px 15px 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.menu a {
+    padding-right: 15px;
+    color:#65777e;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:cadetblue;
+    text-decoration: none;
+}
+
+.header-text {
+    display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 2.0vw;
+    padding-top: 200px;
+	color: #f9fafa;
+	font-style: normal;
+}
+
+.fullscreen_bg {
+    background: url("./img/613673da7032a.jpg") center / cover no-repeat fixed;
+    padding-top: 200px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 550px;
+    opacity: 0.9;
+}
+
+/******** PRODUKTER ********/
+#wrapper {
+    background-color: #fff;
+    color: #5d6e74;
+    height: 100%;
+}
+
+#products {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    position: relative;
+	padding-top: 15px;
+    padding-bottom: 185px;
+    background-color: #fff;
+}
+
+.animate__fadeInRight {
+    --animate-duration: 3s;
+    --animation-delay: 0.7s;
+}
+
+.animate__fadeInLeft {
+    --animate-duration: 3s;
+    --animation-delay: 0.7s;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+    padding: 45px 245px 0 245px;
+}
+
+.booking img:hover {
+    transform: scale(1.14);
+    opacity: 0.8;
+}
+
+
+.col-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.col-6 img {
+    display: flex;
+	align-content: center;
+    flex-wrap: nowrap;
+	width:100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.col-6 h3 {
+    padding: 15px;
+    font-size: 24px;
+}
+
+.col-6 p {
+    padding: 25px 0 25px 70px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 85px 0 45px 0;
+    color: #618692;
+    font-size: 64px;
+    font-family: 'Aftetir';
+
+}
+
+/******** PORTFOLIO *********/
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px 0 45px 0;
+}
+
+.galeri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 125px 0 125px;
+}
+
+.col-4 img {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 25px;
+    opacity: 0.9;
+	width: 100%;
+	height: auto;
+	transform: scale(1.06);
+	transition: 0.5s, opacity 0.5s;
+}
+
+.col-4 img:hover {
+    transform: scale(1.12);
+    opacity: 1;
+}
+
+/******** MAP *********/
+#map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.column {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 15px 60px;
+    color: #637177;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    background-color: white;
+    opacity: 0.6;
+    border-bottom: 1px solid rgb(95, 93, 93);
+    outline: 0;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #638692;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:  #6fa0af;
+  }
+
+  .google-map {
+      display: flex;
+      padding: 35px 5px;
+      filter: blur(0.1px);
+      border: none;
+    }
+
+/******** FOOTER *********/
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 65px;
+    }
+
+    .footer_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 35px 0;
+        border-top: 0.5px solid #69a1b3;
+    }
+
+    ul {
+        list-style: none;
+        padding: 25px 90px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#3B6574;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    .text.col-3 {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        color:#3B6574;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color:#2faed4;
+        font-size: 20px;
+    }
+
+    .ion-icon2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size: 64px;
+        padding-top: 45px;
+    }
+
+    .ion-icon2 a {
+        font-size: 48px;
+        padding: 25px;
+    }
+
+    .ul.ion-icon2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items:center;
+    }
+  /******** MEDIA QUERIES *********/
+
+  @media only screen and (max-width: 1353px) {
+	
+	[class*="col-"] {
+	  width: 100%;
+	}
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 275px;
+    }
+
+    .col-6 {
+        border-bottom: 0.1px #b6c4c9 solid;
+    }
+
+    .col-6 h3 {
+        padding: 35px;
+        font-size: 22px;
+    }
+    
+    .col-6 p {
+        padding: 35px 75px;
+        font-size: 18px;
+    }
+
+    .galeri {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 275px;
+    }
+
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 275px 85px 275px;
+    }
+  
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding: 0 65px;
+    }
+    
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 35px 0;
+        border-top: 0.5px solid #69a1b3;
+    }
+
+    ul.col-3 {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        list-style: none;
+        padding: 25px 10px;
+    }
+
+    .ion-icon2.col-3{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 1353px) {
+
+    [class*="col-"] {
+        width: 100%;
+      }
+
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 0px 45px 0;
+    }
+    
+    .logo img {
+        width: 10%;
+        height: auto;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0 15px 0;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+    .menu a {
+        padding: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 150px;
+    }
+    .galeri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 145px;
+    }
+
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 275px 85px 275px;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    [class*="col-"] {
+        width: 100%;
+      }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 85px;
+    }
+
+    .logo img {
+        width: 10%;
+        height: auto;
+    }
+    .galeri {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 85px;
+    }
+
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 115px 85px 115px;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 160px;
+        font-size: 2.0vh;
+    }
+
+    .col-6 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding: 0 35px;
+    }
+    
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 35px 0;
+        border-top: 0.5px solid #69a1b3;
+    }
+
+    ul.col-3 {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        list-style: none;
+        padding: 25px 10px;
+    }
+
+    .text.col-3 p {
+       text-align: center;
+    }
+
+    .ion-icon2.col-3{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    
+    #header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 120px;
+        font-size: 1.8vh;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .col-6 h3 {
+        padding: 35px;
+        font-size: 18px;
+    }
+    
+    .col-6 p {
+        padding: 35px 55px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 20%;
+        height: auto;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 55px;
+    }
+
+    .galeri {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 55px;
+    }
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 50px 85px 50px;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+	
+}
+
+@media only screen and (max-width: 400px) {
+
+    #header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 120px;
+        font-size: 1.6vh;
+    }
+    .logo img {
+        width: 15%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 2.0em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 30px 85px 30px;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    #header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 120px;
+        font-size: 2.0vh;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .logo img {
+        width: 10%;
+        height: auto;
+    }
+    .col-6 h3 {
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    .col-6 p {
+        padding: 35px 25px;
+        font-size: 16px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px 35px;
+    }
+
+    .galeri {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 35px;
+    }
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 20px 65px 20px;
+    }
+    .google-map {
+        width: 100%;
+    }
+}

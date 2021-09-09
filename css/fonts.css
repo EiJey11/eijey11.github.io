@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Mondapick";
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/woff/Mondapick.woff");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/otf/Mondapick.otf");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/ttf/Mondapick.ttf");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/woff/Mondapick-Bold.woff");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/woff/Mondapick-Extrabold.woff");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/woff/Mondapick-Semiblod.woff");
+    src: url("../fonts/elements-mondapick-sans-serif-font-family-RBE8RLP-2021-04-11/woff/Mondapick-Thin.woff");
+}
